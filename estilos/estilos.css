@@ -4,18 +4,45 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: #0c3d0d;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+.div_fixed{
+    position: fixed;    
+    top: 1px;
+    left: 450px;
+
 }
 
-.menu{
-    background-color: #333;
-    display: block;
-    text-align: center;
-    padding: 15px;
+.posicion_menu{
+    border: 1px solid black;
+}
+
+.imagen_logo{
+    border: 1px solid black;
+    max-width: 50%;
+    margin: auto;
+}
+
+.logo{
+    width: 80px;
+}
+
+.imagen{
+    width: 200px;
+}
+
+.contenido{
+    position: relative;
+    border: 1px solid black;
+    top: 1000px;
+}
+
+.div_fila1, .div_fila2{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Divide el contenedor en tres columnas de igual ancho */
+}
+
+h2{
+    display: inline;
 }
 
 a{
@@ -27,6 +54,3 @@ a:hover{
     color: black;
 }
 
-.imagen{
-    text-align: center;
-}
